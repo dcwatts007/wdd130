@@ -1,2 +1,2 @@
 # wdd130
-My projects for Web Fundamentala
+My projects for Web Fundamentals
