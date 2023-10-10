@@ -21,3 +21,7 @@ nav{
 h1, nav, footer{
   text-align: center;
 }
+a:link, a:visited
+{
+  background-color: aquamarine;
+}
