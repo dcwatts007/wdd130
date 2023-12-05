@@ -10,6 +10,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    background-color: #593883;
 }
 nav a{
     color: #EDA54D;
@@ -82,4 +83,53 @@ footer
     background-color: #EDA54D;
     text-align: center;
     justify-content: space-around;
+}
+/* adonalsium style guide */
+#adonalsium-hero{
+    display:grid;
+    grid-template-rows: 1fr 3fr;
+    color:white;
+    text-shadow:2px 2px 2px black;
+}
+#adonalsium-hero h1{
+    grid-row: 1/2;
+    grid-column:1;
+    color:#593883;
+    z-index: 1;
+    text-align: center;
+}
+#adonalsium-hero-img{
+    grid-row:1/3;
+    grid-column:1;
+}
+#adonalsium-hero p
+{
+    grid-row:2/3;
+    grid-column:1;
+    padding:50px;
+    text-align: center;
+}
+#adonalsium-grid{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+#adonalsium-grid div
+{
+    grid-column:1/2;
+    border:#EDA54D 2px solid;
+}
+#planet
+{
+    object-fit: cover;
+    grid-row:4/6;
+    grid-column: 2/3;
+    height: 100%;
+    width:100%;
+}
+#side-img
+{
+    grid-row:2/4;
+    grid-column:2/3;
+    height: 100%;
+    width:100%;
 }
