@@ -11,6 +11,7 @@ nav {
   display: flex;
   justify-content: space-around;
   background-color: #593883;
+  list-style: none;
 }
 nav a {
   color: #eda54d;
