@@ -18,6 +18,10 @@ nav a {
   text-align: center;
   padding: 40px;
 }
+nav a :hover
+{
+  color:#c28378;
+}
 #hero {
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
