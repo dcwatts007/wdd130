@@ -23,6 +23,9 @@ nav a {
   grid-template-columns: 1fr 3fr 1fr;
   margin-top: -100px;
 }
+body{
+  font-family: Garamond, Helvetica, sans-serif;
+}
 #hero-msg {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -74,11 +77,14 @@ p {
   margin-top: 0px;
 }
 footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
   background-color: #eda54d;
   text-align: center;
   justify-content: space-around;
+  padding: auto;
+}
+footer a{
+  padding: 15px;
 }
 /* adonalsium style guide */
 #adonalsium-hero {
